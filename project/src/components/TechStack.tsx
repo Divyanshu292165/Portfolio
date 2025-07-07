@@ -115,7 +115,7 @@ const TechStack: React.FC = () => {
   };
 
   return (
-    <section className="py-32 bg-gradient-to-b from-gray-800 via-gray-900 to-black relative overflow-hidden" ref={ref}>
+    <section id="skills" className="py-32 bg-gradient-to-b from-gray-800 via-gray-900 to-black relative overflow-hidden" ref={ref}>
       {/* Animated Background Grid */}
       <div className="absolute inset-0 data-grid opacity-5" />
       

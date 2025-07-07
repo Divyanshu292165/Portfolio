@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
       value: 'divyanshu-shukla',
       description: 'Connect with me on LinkedIn',
       color: 'from-blue-500 to-cyan-500',
-      href: 'https://www.linkedin.com/in/divyanshu-shukla/'
+      href: 'https://www.linkedin.com/in/divyanshu-shukla-203731288'
     },
     { 
       icon: Github, 
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden" ref={ref}>
+    <section id="contact" className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden" ref={ref}>
       {/* Futuristic Background */}
       <div className="absolute inset-0">
         <motion.div

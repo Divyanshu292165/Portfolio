@@ -276,8 +276,7 @@ const Hero: React.FC = () => {
           className="flex flex-col sm:flex-row gap-6 justify-center mb-16"
         >
           <motion.a
-            href="/resume.pdf"
-            download
+            href="https://www.dropbox.com/scl/fi/nhiyze2hjggt0mwk0rf0o/Divyanshu_Shukla_Resume_2025.pdf?rlkey=n48qj434kv4ruh4vhpe6p2wzq&st=8216r2bp&dl=0"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative overflow-hidden bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 rounded-2xl text-white font-semibold text-lg shadow-2xl quantum-hover"

@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <section className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden" ref={ref}>
+    <section id="projects" className="py-32 bg-gradient-to-b from-gray-900 via-black to-gray-900 relative overflow-hidden" ref={ref}>
       {/* Futuristic Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,245,255,0.1),transparent_50%)]" />

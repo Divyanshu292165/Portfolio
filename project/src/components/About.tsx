@@ -77,7 +77,7 @@ const About: React.FC = () => {
   };
 
   return (
-    <section className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden" ref={ref}>
+    <section id="about" className="py-32 bg-gradient-to-b from-black via-gray-900 to-black relative overflow-hidden" ref={ref}>
       {/* Futuristic Background */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl animate-pulse" />
@@ -145,9 +145,10 @@ const About: React.FC = () => {
 
           <motion.div variants={itemVariants} className="max-w-4xl mx-auto space-y-6">
             {[
-              "I'm Divyanshu Shukla, a passionate Frontend Developer pursuing BTech in Computer Science with AI specialization. Currently learning and growing in the field of web development with a keen interest in creating innovative digital solutions.",
-              "I have earned NPTEL certification in Computer Networks and Protocols, and I'm actively learning AWS Cloud Computing. My journey involves mastering modern web technologies while building a strong foundation in artificial intelligence.",
-              "As an aspiring developer seeking internship opportunities, I believe in continuous learning and creating applications that combine functionality with exceptional user experience. I'm excited to contribute to meaningful projects and grow in this dynamic field."
+              `I'm Divyanshu Shukla, a passionate and driven Frontend Developer currently pursuing a B.Tech in Computer Science with a specialization in Artificial Intelligence. With a strong interest in creating seamless, user-focused digital experiences, I am actively building my skills in modern web development technologies, including HTML, CSS, JavaScript, React, and Tailwind CSS.`,
+              `I have successfully completed NPTEL certification in Computer Networks and Protocols, and I'm currently expanding my knowledge in AWS Cloud Computing and scalable web infrastructure. My academic and project-based learning has given me hands-on experience with responsive design, UI/UX principles, and cross-platform development.`,
+              `My journey in tech is shaped by a deep curiosity and a commitment to continuous improvement. I strive to blend creativity with functionality, ensuring that every application I build is intuitive, efficient, and impactful. I am also developing a strong foundation in artificial intelligence, preparing myself to build intelligent, data-driven solutions that can adapt to future demands.`,
+              `As an aspiring software developer seeking internship opportunities, I bring a proactive mindset, a collaborative spirit, and a passion for innovation. I am eager to contribute to meaningful projects, learn from real-world challenges, and grow in a dynamic and fast-paced development environment.`
             ].map((text, index) => (
               <motion.p
                 key={index}
